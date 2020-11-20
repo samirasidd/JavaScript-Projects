@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+        <title>Change Background Colour</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        </html>
+    </head>
+
+    <body>
+        <button>Click here</button>
+        <script type="text/javascript">
+        let colour = ["#F7DC6F", "#D7BDE2", "#F2D7D5", "#A9DFBF", "#7FB3D5", "#BFC9CA", "#D98880", "#D4EFDF", "#FCF3CF"];
+        let i = 0;
+        document.querySelector("button").addEventListener("click", function(){
+            i = i < colour.length ? ++i : 0;
+            document.querySelector("body").style.background = colour[i];
+        })
+
+        </script>
+        </body>
+    </html>
+
+    
