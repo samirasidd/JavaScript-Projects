@@ -1,0 +1,38 @@
+body {
+    /* background-image: url("rhema-unsplash.jpg"); */
+   /* background: linear-gradient(to right, #424949, #99A3A4, #CACFD2);  */
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}
+
+.hero-image {
+    background-image: url("rhema-unsplash.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 1000px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+
+.responsive {
+    max-width: 60%;
+    height: auto;
+}
+
+img {
+    padding: 25px;
+}
+
+.displayBox {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.scroll-box {
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 1rem;
+}
+
